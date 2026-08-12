@@ -133,6 +133,7 @@ Install Pandas:
 
 ```bash
 pip install pandas
+
 ---
 
 ## 👨‍💻 Author
