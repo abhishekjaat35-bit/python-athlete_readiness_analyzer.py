@@ -133,3 +133,22 @@ Install Pandas:
 
 ```bash
 pip install pandas
+
+
+## 👨‍💻 Author
+
+**Abhishek Tomar**
+
+Strength & Conditioning | Sports Performance | Sports Analytics | Python
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📌 Project Status
+
+Completed ✅
