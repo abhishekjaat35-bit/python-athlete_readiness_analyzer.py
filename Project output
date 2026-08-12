@@ -1,0 +1,61 @@
+After:
+pip install pandas
+run:
+python athlete_readiness_analyzer.py
+The important output should be:
+===========================================================================
+DAILY READINESS RESULTS
+===========================================================================
+Athlete        Date  Wellness_Score  Training_Load Wellness_Percent Load_Score Readiness_Score           Readiness_Category
+Rahul  2026-08-03              25            450            100.0%       43.8            83.1 Moderate Readiness
+Rahul  2026-08-04              20            550             80.0%       31.2            65.4 Low Readiness
+Rahul  2026-08-05              25            350            100.0%       56.2            86.9 High Readiness
+Rahul  2026-08-06              19            650             76.0%       18.8            58.8 Low Readiness
+Rahul  2026-08-07              24            400             96.0%       50.0            82.2 Moderate Readiness
+Arjun  2026-08-03              20            500             80.0%       37.5            67.2 Low Readiness
+Arjun  2026-08-04              18            650             72.0%       18.8            56.0 Low Readiness
+Arjun  2026-08-05              25            400            100.0%       50.0            85.0 High Readiness
+Arjun  2026-08-06              14            800             56.0%        0.0            39.2 Very Low Readiness
+Arjun  2026-08-07              20            550             80.0%       31.2            65.4 Low Readiness
+Vikram 2026-08-03              25            350            100.0%       56.2            86.9 High Readiness
+Vikram 2026-08-04              25            400            100.0%       50.0            85.0 High Readiness
+Vikram 2026-08-05              20            500             80.0%       37.5            67.2 Low Readiness
+Vikram 2026-08-06              25            300            100.0%       62.5            88.8 High Readiness
+Vikram 2026-08-07              22            450             88.0%       43.8            74.7 Moderate Readiness
+Priya  2026-08-03              20            450             80.0%       43.8            69.1 Low Readiness
+Priya  2026-08-04              15            700             60.0%       12.5            45.8 Very Low Readiness
+Priya  2026-08-05              25            350            100.0%       56.2            86.9 High Readiness
+Priya  2026-08-06              20            550             80.0%       31.2            65.4 Low Readiness
+Priya  2026-08-07              19            600             76.0%       25.0            60.7 Low Readiness
+Athlete summary
+===========================================================================
+ATHLETE READINESS SUMMARY
+===========================================================================
+Athlete  Sessions  Average_Wellness  Average_Training_Load  Average_Readiness  Minimum_Readiness  Maximum_Readiness
+Arjun         5               19.4                  580.0               62.6%              39.2%              85.0%
+Priya         5               19.8                  530.0               65.6%              45.8%              86.9%
+Rahul         5               22.6                  480.0               75.3%              58.8%              86.9%
+Vikram        5               23.4                  400.0               80.5%              67.2%              88.8%
+Ranking
+===========================================================================
+ATHLETE READINESS RANKING
+===========================================================================
+1. Vikram     80.5%
+2. Rahul      75.3%
+3. Priya      65.6%
+4. Arjun      62.6%
+Team
+===========================================================================
+TEAM READINESS SUMMARY
+===========================================================================
+Average Wellness Score : 21.3/25
+Average Training Load  : 497.5 AU
+Average Team Readiness : 71.0%
+Lowest-readiness session
+===========================================================================
+LOWEST READINESS SESSION
+===========================================================================
+Athlete   : Arjun
+Date      : 2026-08-06
+Readiness : 39.2%
+Category  : Very Low Readiness
