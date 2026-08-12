@@ -1,3 +1,21 @@
+## 👨‍💻 Author
+
+**Abhishek Tomar**
+
+Strength & Conditioning | Sports Performance | Sports Analytics | Python
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📌 Project Status
+
+Completed ✅
+
 # Athlete Readiness Analyzer
 
 A Python sports-performance analytics project that combines athlete wellness indicators and training load to produce an educational readiness score.
@@ -135,21 +153,3 @@ Install Pandas:
 pip install pandas
 
 ---
-
-## 👨‍💻 Author
-
-**Abhishek Tomar**
-
-Strength & Conditioning | Sports Performance | Sports Analytics | Python
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## 📌 Project Status
-
-Completed ✅
